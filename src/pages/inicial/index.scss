@@ -1,0 +1,134 @@
+.pagina-bid {
+  display: flex;
+  flex-direction: column;
+
+  .cabecalho {
+    height: 90px;
+    background-color: #AEAEAE;
+
+    .cabe-itens {
+      display: flex;
+      display: flex;
+      gap: 25px;
+      padding: 0px 0px 0px 100px;
+      color: #fff;
+      align-items: center;
+      flex-direction: row;
+
+      img {
+        height: 69px;
+      }
+    }
+  }
+
+
+
+  .conteudo {
+    display: flex;
+    align-items: center;
+    padding: 50px 0px 0px 0px;
+    flex-direction: column;
+    background-color: #F5F6FA;
+
+    .fundo-jogador {
+      padding: 30px;
+      background-color: #fff;
+      height: 53vh;
+      box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+      width: 800px;
+    }
+
+    .add-jogador {
+      display: flex;
+      flex-direction: column;
+      line-height: 20px;
+      gap: 10px;
+
+      .titulo-jog {
+        padding: 0px 0px 30px 0px;
+        h3 {
+          font-size: 23px;
+        }
+      }
+
+      .nome-input {
+        color: #747474;
+        border: 1px solid #C7C7C7;
+        width: 350px;
+        padding: 0px 0px 6px 10px;
+        border-radius: 6px;
+
+        input {
+          outline: none;
+          border: none;
+        }
+      }
+
+      .contrato-input {
+        color: #747474;
+        border: 1px solid #C7C7C7;
+        width: 350px;
+        padding: 0px 0px 6px 10px;
+        border-radius: 6px;
+
+        input {
+          outline: none;
+          border: none;
+        }
+      }
+
+      .clube-input {
+        color: #747474;
+        border: 1px solid #C7C7C7;
+        width: 350px;
+        padding: 0px 0px 6px 10px;
+        border-radius: 6px;
+
+        input {
+          outline: none;
+          border: none;
+        }
+      }
+
+      .publicacao-input {
+        color: #747474;
+        border: 1px solid #C7C7C7;
+        width: 350px;
+        padding: 0px 0px 6px 10px;
+        border-radius: 6px;
+
+        input {
+          outline: none;
+          border: none;
+        }
+      }
+
+      .nascimento-input {
+        color: #747474;
+        border: 1px solid #C7C7C7;
+        width: 350px;
+        padding: 0px 0px 6px 10px;
+        border-radius: 6px;
+
+        input {
+          outline: none;
+          border: none;
+        }
+      }
+
+      .botao {
+        padding: 20px 0px 0px 0px;
+        button {
+          background-color: #014DFF;
+          color: #fff;
+          height: 40px;
+          border-radius: 4px;
+          font-size: 13px;
+          border: none;
+          font-weight: bold;
+          width: 100px;
+        }
+      }
+    }
+  }
+}
