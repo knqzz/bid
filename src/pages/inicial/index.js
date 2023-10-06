@@ -57,6 +57,65 @@ export default function Bid() {
 
         </div>
 
+        <div className='fundo-jogadorr'>
+
+          <div className='lista'>
+
+            <div className='lista-conteudo'>
+              <h2>Lista de Jogadores</h2>
+
+              <div className='lista-input'>
+              <h6>Nome</h6>
+ 
+              <div className='lista-img'>
+
+              <input type='text' placeholder='Thauan' />
+
+
+                <button> <img src='/assets/images/lupa.png'></img> </button>
+
+              </div>
+
+              </div>
+
+            </div>
+
+            <div className='tabela'>
+
+              <table>
+
+                <thead>
+
+                  <tr>
+
+                    <th>Nome</th>
+                    <th>Clube</th>
+                    <th>Publicação</th>
+                    <th>Tipo de Contrato</th>
+
+
+                  </tr>
+
+                </thead>
+
+                <tbody>
+
+                  <tr>
+
+                    <td></td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+
+            </div>
+
+          </div>
+
+        </div>
+
       </div>
 
     </main>
