@@ -185,16 +185,18 @@
         }
 
         .tabela {
-
+          padding: 20px 0px 0px 0px;
           table {
 
             thead {
               display: flex;
+              width: 700px;
               flex-direction: row;
-              width: 80px;
-              justify-content: space-between;
-              tr {
 
+              tr {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
               }
 
             }
